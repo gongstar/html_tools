@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>显示日期</title>
+<body>
+<SCRIPT language=JavaScript>
+<!-----------
+   today = new Date();  
+   var date;
+   var centry ;   
+   centry="";
+    if  (today.getFullYear()<2000 )  centry = "19" ;
+    date1 = centry + (today.getFullYear())  + "年" + (today.getMonth() + 1 ) + "月" + today.getDate() + "日  " ; 
+   date2 = "";
+   document.write( date1+date2);
+//----->
+ </SCRIPT>
+
+<br>
+<div id='date'><script>getdates();</script></div>
+<script language="javascript">
+    function getdates()
+    {
+        var w_array=new Array("星期天","星期一","星期二","星期三","星期四","星期五","星期六");
+        var d=new Date();
+        var year=d.getFullYear();
+        var month=d.getMonth()+1;
+        var day=d.getDate();
+        var week=d.getDay();
+        var h=d.getHours();
+        var mins=d.getMinutes();
+        var s=d.getSeconds();
+        
+        if(month<10) month="0" + month
+        if(day<10) month="0" + day
+        if(h<10) h="0" + h
+        if(mins<10) mins="0" + mins
+        if(s<10) s="0" + s
+        
+        var shows="现在时间是： <span>" + year + "-" + month + "-" + day + " " + h + ":" + mins +  ":" + s + " " + w_array[week] + "</span>";
+        document.getElementById("date").innerHTML=shows;
+        setTimeout("getdates()",1000);
+    }
+getdates();
+    </script>
+
+<br>
+</html>
+
