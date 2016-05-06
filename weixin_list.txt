@@ -4,9 +4,9 @@ Kindle阅读者
 1200bookshop
 
 VALSE
-ResysChina
-机器之心
 机器学习研究会
+机器之心
+ResysChina
 人机与认知实验室
 哈工大SCIR
 DeepLearning中文论坛
@@ -14,23 +14,27 @@ machinelearning
 readpami
 
 
+
 新智元
 微软研究院
 人工智能头条
+清华大数据
+复旦大数据
 程序媛的日常
 声学在线
 大数据分析挖掘
 机器人学家
 中科院物理所
+董老师在硅谷
 
 
 程序员日志
 好东西传送门
 高可用架构
+imkuqin
 penny
 湾区日报
 待字闺中
-pennydata
 水滴杂谈
 iOS开发
 AndroidDeveloper
@@ -40,6 +44,7 @@ InfoQ
 大嘴说图像
 程序人生
 计算广告
+pennydata
 TimYang
 MySQL中文网
 心智工具箱
